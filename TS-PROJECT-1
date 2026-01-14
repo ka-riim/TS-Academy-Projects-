@@ -1,0 +1,25 @@
+Sales Data Analysis  - Excel Dashboard
+
+Project Overview:
+Tools: Microsoft Excel (Advanced)
+Dataset: 2000+ sales transactions
+Features: Interactive dashboard with Power Query, pivot tables, and slicers
+
+Key Findings:
+Most profitable product - Laptop A13($105,336,000   22.62% margin)
+Top Sales Rep - Peter ($434m revenue)
+Highest Profit City - Lagos (26.51% margin)
+Worst Month - May ($3,775,000)
+
+Dashboard Preview:
+https://docs.google.com/spreadsheets/d/1V1Ppn32fallAgrtzBPM445461rUb-4pK/edit?usp=drive_link&ouid=107334195360285232064&rtpof=true&sd=true
+
+Methodology:
+1. Data Cleaning(power Query)
+-Handled missing values in the COGS, Profit, and Revenue columns
+-Standardized date formats and text case
+
+2. KPI Calculations
+- Revenue: =unit price * quantity
+- COGS: =cost price * qunatity
+- profit: = (unit price - cost price) * quantity
